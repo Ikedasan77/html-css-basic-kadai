@@ -68,17 +68,16 @@ footer {
     padding: 10px 0;
 }
 
-footer a {
-    color: rgb(255, 255, 255);
-    
+a {
+    color: rgb(255, 255, 255); /* a要素の文字色 */
 }
 
-footer a:visited {
+a:visited {
     color: rgb(193, 234, 251); /* 訪問済みリンクの文字色 */
 }
 
-footer a:hover {
-    color: rgb(245, 178, 168);  /* マウスカーソルが乗ったときの文字色 */
+a:hover {
+    color: rgb(245, 178, 168); /* マウスカーソルが乗ったときの文字色 */
 }
 
 /* レスポンシブ対応 */
